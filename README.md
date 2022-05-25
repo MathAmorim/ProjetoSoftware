@@ -1,1 +1,1 @@
-# Aianda não entendi foi nada!
+# Ainda não entendi foi nada!
