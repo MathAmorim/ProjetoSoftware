@@ -27,14 +27,14 @@
 		//$xml .= '<identificacao>' . $res[$i]['identificacao'] . '</identificacao>';
 		$xml .= '</recurso>';
 	}
-	
+
 	$xml .= '</recursos>';
 
 	$fp = fopen('controle/recursos.xml', 'w+');
 	fwrite($fp, $xml);
 	fclose($fp);
 	echo "XML gerado! <br>";
-	echo '<a href="controle/recursos.xml">Abrir XML</a>';
+	echo '<a href="controle/recursos.xml">Abrir XML aahsdfhaoshdofh</a>';
 	?>
 </body>
 </html>
