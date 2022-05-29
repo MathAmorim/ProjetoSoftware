@@ -34,7 +34,7 @@
 	fwrite($fp, $xml);
 	fclose($fp);
 	echo "XML gerado! <br>";
-	echo '<a href="controle/recursos.xml">Abrir XML aahsdfhaoshdofh</a>';
+	echo '<a href="controle/recursos.xml">Abrir XML</a>';
 	?>
 </body>
 </html>
