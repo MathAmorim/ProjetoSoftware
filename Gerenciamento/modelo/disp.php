@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<meta http-equiv='refresh' content='0; URL=../controle/disp.xml'>
+	<meta http-equiv='refresh' content='0; URL=../controle/disp.xml'>
 	<title>Disponibilidade</title>
 </head>
 <body>
@@ -12,8 +12,8 @@
 	$tp = array('Disponivel','Reservado');
 	for ($i=0; $i < 10; $i++) { 
 		$status = $tp[rand(0, count($tp)-1)];
-	   	$res[$i]['data'] = $i+1;
-	    $res[$i]['status'] = $status;
+		$res[$i]['data'] = $i+1;
+		$res[$i]['status'] = $status;
 	    //$res[$i]['reserva'] = $reserva;
 	}
 

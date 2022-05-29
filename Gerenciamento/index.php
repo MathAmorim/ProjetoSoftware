@@ -27,7 +27,7 @@
 		//$xml .= '<identificacao>' . $res[$i]['identificacao'] . '</identificacao>';
 		$xml .= '</recurso>';
 	}
-
+	
 	$xml .= '</recursos>';
 
 	$fp = fopen('controle/recursos.xml', 'w+');
