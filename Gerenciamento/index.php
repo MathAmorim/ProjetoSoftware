@@ -11,8 +11,8 @@
 	$tp = array('Projetor','Laboratorio');
 	for ($i=0; $i < 10; $i++) { 
 		$tipo = $tp[rand(0, count($tp)-1)];
-	   	$res[$i]['id'] = $i;
-	    $res[$i]['tipo'] = $tipo;
+		$res[$i]['id'] = $i;
+		$res[$i]['tipo'] = $tipo;
 	    //$res[$i]['identificacao'] = $identificacao;
 	}
 
