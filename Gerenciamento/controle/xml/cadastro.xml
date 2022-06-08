@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../interface/cadastro.xsl"?>
+<usuarios>
+	<usuario>
+		<cadastrar>
+			Cadastrar usuario
+		</cadastrar>
+	</usuario>
+</usuarios>
